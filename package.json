@@ -1,0 +1,14 @@
+{
+  "name": "code_review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build && cd .. && cd backend && npm install",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
